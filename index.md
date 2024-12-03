@@ -26,7 +26,7 @@ title: "Welcome to Flutterverse"
       body: formData,
       mode: "no-cors"
     }).then(response => {
-        window.location.href = "/finish/";
+        window.location.href = "/finish";
     });
     
     
