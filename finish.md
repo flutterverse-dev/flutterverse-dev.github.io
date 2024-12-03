@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Obrigado"
+permalink: /finish
 ---
 
 <div class="thank-you-container">
