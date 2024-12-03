@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* Global body styles for a clean, minimal look */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container that centers the form on the page */
+.form-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+/* Header styling */
+.form-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Input field styling */
+.form-container input[type=text],
+.form-container input[type=email],
+.form-container input[type=submit],
+.form-container input[type=radio] {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #555;
+  box-sizing: border-box;
+  transition: border 0.3s ease;
+}
+
+/* Focus effect for inputs */
+.form-container input[type=text]:focus,
+.form-container input[type=email]:focus {
+  border: 1px solid #007BFF;
+  outline: none;
+}
+
+/* Submit button styling */
+.form-container input[type=submit] {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.form-container input[type=submit]:hover {
+  background-color: #0056b3;
+}
+
+/* Success message styling */
+.success-message {
+  background-color: #dff0d8;
+  color: #3c763d;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+/* Radio button label styling */
+.form-container label {
+  font-size: 1rem;
+  color: #555;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+/* Container for the thank you page */
+.thank-you-container {
+  text-align: center; /* Center align the content */
+  padding: 30px; /* Add padding to give space around the content */
+  background-color: #f8f8f8; /* Light background color */
+  border-radius: 10px; /* Rounded corners */
+  margin-top: 50px; /* Add space at the top */
+  display: flex;
+  flex-direction: column; /* Ensures each item is stacked vertically */
+  align-items: center; /* Align the content to the center */
+}
+
+/* Styling for the main title */
+#obrigado-por-enviar-o-formulário {
+  font-size: 2.5em; /* Larger font size */
+  color: #333; /* Dark text color */
+  margin-bottom: 15px; /* Add space below the title */
+}
+
+/* Styling for the success message */
+#seu-envio-foi-bem-sucedido-agradecemos-por-sua-contribuição {
+  font-size: 1.5em; /* Slightly smaller size */
+  color: #666; /* Lighter color */
+  margin-bottom: 20px; /* Add space below the message */
+}
+
+/* Styling for paragraphs */
+.thank-you-container p {
+  font-size: 1.2em; /* Make text larger */
+  color: #444; /* Slightly lighter color */
+  line-height: 1.6; /* Increase line height for readability */
+  margin-top: 15px; /* Add space between paragraphs */
+  margin-bottom: 20px; /* Add space below paragraphs */
+}
+
+/*# sourceMappingURL=main.css.map */
